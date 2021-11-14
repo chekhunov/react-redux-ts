@@ -1,7 +1,7 @@
 import axios from "axios"
 import { type } from "os"
 import { Dispatch } from "react"
-import { UserAction, UserActionTypes } from "../../types/todo"
+import { UserAction, UserActionTypes } from "../../types/user"
 
 export const fetchUsers = () => {
     return async (dispatch: Dispatch<UserAction>) => {
